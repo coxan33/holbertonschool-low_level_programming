@@ -1,9 +1,9 @@
 CC = gcc
 SRC = school.c main.c
 OBJ = $(SRC:%.c=%.o)
-	NAME = school
-	CFLAGS = -Wall -Werror -Wextra -pedantic
-	RM = rm -f
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+RM = rm -f
 %.o: %.c m.h
 			$(CC) $(CFLAGS) -c -o $@ $<
 all: $(OBJ)
