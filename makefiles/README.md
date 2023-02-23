@@ -1,6 +1,6 @@
 C - Makefiles
 
-Resources
+ Resources
 Read or watch:
 
 Makefile
