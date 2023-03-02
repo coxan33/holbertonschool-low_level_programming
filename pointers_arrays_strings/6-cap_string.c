@@ -19,7 +19,7 @@ char *cap_string(char *cap)
 
 		if (cap[ch] >= 97 && cap[ch] <= 122)
 		{
-			switch (cap[ch] - 1)
+			switch (cap[ch - 1])
 			{
 				case 32:
 				case 9:
@@ -29,6 +29,7 @@ char *cap_string(char *cap)
 				case 46:
 				case 33:
 				case 63:
+				case 34:
 				case 40:
 				case 41:
 				case 123:
