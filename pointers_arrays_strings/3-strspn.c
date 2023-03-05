@@ -11,11 +11,10 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int bytes;
-	unsigned int cont = 0;
+	unsigned int bytes = 0;
 	int string;
 
-	while (s[cont])
+	while (*s)
 	{
 		for (string = 0; accept[string]; string++)
 		{
