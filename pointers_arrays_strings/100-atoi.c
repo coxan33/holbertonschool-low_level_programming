@@ -24,7 +24,7 @@ int _atoi(char *s)
 		while (s[cont] >= 48 && s[cont] <= 57)
 		{
 			a = 1;
-			number = (number * 10) + (s[cont] - '\0');
+			number = (number * 10) + (s[cont] - '0');
 			cont++;
 		}
 		if (a == 1)
@@ -33,5 +33,6 @@ int _atoi(char *s)
 		}
 		cont++;
 	}
+	number *= min;
 	return (number);
 }
