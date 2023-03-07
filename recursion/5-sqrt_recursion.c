@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * number - the natural square 
+ * number - the natural square
  *
  * @a: number
  * @b: square
@@ -26,7 +26,7 @@ int number(int a, int b)
  *
  * @n: number
  *
- * Retrun: Integer
+ * Return: Integer
  */
 
 int _sqrt_recursion(int n)
