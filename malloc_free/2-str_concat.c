@@ -27,10 +27,10 @@ char *str_concat(char *s1, char *s2)
 	if (array == NULL)
 		return (NULL);
 
-	for (a = 0; s1[a]; a++)
+	for (a = 0; s1[a] != '\0'; a++)
 		array[a] = s1[a];
 
-	for (b = 0; s2[b]; b++)
+	for (b = 0; s2[b] != '\0'; b++)
 		array[a + b] = s2[b];
 
 	return (array);
