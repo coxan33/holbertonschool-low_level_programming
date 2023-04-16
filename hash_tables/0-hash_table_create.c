@@ -24,6 +24,6 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(pointer);
 		return (NULL);
 	}
-	return (pointeor);
+	return (pointer);
 }
 
