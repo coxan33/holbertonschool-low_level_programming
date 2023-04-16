@@ -3,7 +3,7 @@
 /**
  * read_textfile - reads a text file and prints
  *
- * @filname: Filename
+ * @filename: Filename
  * @letters: Letters
  *
  * Return: Int
